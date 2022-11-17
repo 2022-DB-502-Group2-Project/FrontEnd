@@ -138,5 +138,6 @@ i {
 }
 
 .index-main__top__search button {
-    background-color: black;
+    background-color: #001F55;
+    border: none;
 }
