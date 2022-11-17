@@ -9,6 +9,7 @@
   padding: 1% 0%;
 
   width: 100%;
+  height: 4%;
   background-color: #f2f3f7;
   color: black;
 }
@@ -23,9 +24,13 @@
   align-items: center;
 }
 
+.index-bar a {
+  width: 100%;
+  height: 100%;
+}
+
 .index-bar__column__svg {
-  width: 150px;
-  height: 40px;
+  width: 15%;
   padding-left: 3%;
 }
 
@@ -40,7 +45,7 @@
 
 .index-bar__column span {
   padding-top: 1%;
-  font-size: 17px;
+  font-size: 1.2em;
   font-weight: bold;
   padding-right: 3%;
 }

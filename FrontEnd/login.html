@@ -29,9 +29,6 @@
         <span>
           <a href="test.html">한정우</a>
         </span>
-        <span>
-          <a href="login.html">login</a>
-        </span>
       </div>
     </div>
   </div>
@@ -51,17 +48,21 @@
   <div class="index-main">
     <div class="index-main__top">
       <div class="index-main__top__title">
-          <span>K리그 통합 검색</span>
-          <span>K리그의 순위, 기록, 데이터를 확인할 수 있는 공간입니다.</span>
+          <span>K리그 로그인</span>
+          <span>K리그에 오신것을 환영합니다.</span>
       </div>
-      <div class="index-main__top__search">
-        <form action="">
-          <input type="text" placeholder="팀 검색, 선수 검색..">
-          <button>
-            <i class="fas fa-search fa-2x"></i>
-          </button>
-        </form>
-      </div>
+    </div>
+
+    <div class="index-main__column">
+        <div class="login-main__column">
+            <div class="login-main__column__form">
+              <form action="" method="post" id="login-form">
+                <input type="text" name="userID" placeholder="아이디">
+                <input type="password" name="userPassword" placeholder="비밀번호">
+                <button id="login"></button>
+              </form>
+            </div>
+          </div>
     </div>
   </div>
 
