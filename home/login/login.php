@@ -1,54 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-  <script src="https://kit.fontawesome.com/60c73f104d.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/styles.css" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>K LEAGUE DATA</title>
-</head>
+include_once $_SERVER['DOCUMENT_ROOT']."/home/common/common.php";
 
-<body>
-  <div class="index-bar">
-    <div class="index-bar__column">
-      <a href="index.html">
-        <img class="index-bar__column__svg" src="https://www.kleague.com/assets/images/logo/logo.png" alt="K리그 로고">
-      </a>
-    </div>
-
-    <div class="index-bar__column">
-      <div class="index-bar__column__name">
-        <span>DB 실습 2조 :</span>
-        <span>
-          <a href="test.html">서해원</a>
-        </span>
-        <span>
-          <a href="test.html">윤준호</a>
-        </span>
-        <span>
-          <a href="test.html">한정우</a>
-        </span>
-        <span>
-            <a href="login.html">login</a>
-          </span>
-      </div>
-    </div>
-  </div>
-
-  <header class="index-header">
-    <div class="index-header__column">
-      <a href="team.html"> <span>팀</span></a>
-    </div>
-    <div class="index-header__column">
-      <a href="player.html"> <span>선수</span></a>
-    </div>
-    <div class="index-header__column">
-      <a href="calendar.html"> <span>일정</span></a>
-    </div>
-    
-  </header>
-
+?>
+<?php
+Header::render();
+?>
   <div class="index-main">
     <div class="index-main__top">
       <div class="index-main__top__title">
@@ -95,16 +52,11 @@
                 </div>
               </div>
           </div>
-          <script type="text/javascript" src="./script/login-form.js"></script> 
+          <script type="text/javascript" src="<?php echo SCRIPT_PATH."/login-form.js" ?>"></script>
     </div>
   </div>
+<?php
 
+Footer::render();
 
-  <footer class="index-footer">
-    <a href="test.html">
-      <img src="https://www.kleague.com/assets/images/logo/foot_logo.png" alt="K리그 투명로고">
-    </a>
-  </footer>
-
-</body>
-</html>
+?>
