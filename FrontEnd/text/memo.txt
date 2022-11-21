@@ -340,3 +340,13 @@ team 화면
 
 
 
+
+
+    <div class="index-main">
+    <div class="index-main__top">
+      <div class="index-main__top__title">
+          <span>K리그 통합 검색</span>
+          <span>K리그의 순위, 기록, 데이터를 확인할 수 있는 공간입니다.</span>
+      </div>
+    </div>
+  </div>
